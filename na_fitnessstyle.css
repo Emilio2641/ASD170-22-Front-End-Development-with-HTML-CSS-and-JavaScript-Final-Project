@@ -1,0 +1,60 @@
+body
+	{
+		background-color: darkcyan;
+	}
+
+nav 
+	{ 
+	   clear: left;
+	   display: -webkit-flex;
+	   display: flex;
+	   -webkit-flex-flow: row nowrap;
+	   flex-flow: row nowrap;
+	   -webkit-justify-content: center;
+	   justify-content: center;
+	   -webkit-align-items: center;
+	   align-items: center;
+	   background-color: #34495e; 
+	   height: 40px;
+	   box-shadow: 0px 5px 15px rgb(51, 51, 51);	
+	}
+li 
+	{
+		float: left;
+	}
+nav a:hover 
+	{
+		color: lightblue;
+	}
+nav a
+	{
+	   color: rgb(255, 255, 199);
+	   display: block;
+	   font-size: 1.2em;
+	   text-align: inline;
+	   padding: 0% 0%;
+	}
+
+	
+a:nth-of-type(1) 
+	{
+		width: 70px;
+		position: left-side;
+	}
+a:nth-of-type(2) 
+	{
+		width: 80px;
+		position: right-side;
+	}
+p 
+	{
+		border-color: lightblue;
+	}
+
+footer
+	{
+		position: relative;
+		height: 50px;
+	}
+
+
